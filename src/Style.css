@@ -1,0 +1,53 @@
+:root{
+    --SuperDarkWine: #3A0611;
+    --DarkWine: #670f22;
+    --Wine: #6A041A;
+    --OldWine: #9A0526;
+    --RedWine: #AB0D2F;
+    --RoseWine: #CD0C36;
+    --BrinkPink: #FF637B;
+    --PaleSpringBud: #F4F1BB;
+    --MediumTurquoise: #66D7D1;
+    --KeyLime: #EAF27F;
+    --Cerise: #D1345B;
+    --Blond: #FFF8Bf;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/public/images/background.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: system-ui, -apple-system, /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    font-family: inherit;
+}
+
+.disable{
+    display: none !important;
+}
+.buttonHome{
+    position: fixed;
+    bottom: 15px;
+    right: 50%;
+    border-radius: 50%;
+    background: #f7f4f4;
+    padding: 10px;
+    transform: translateX(50%);
+    color: rgba(60, 60, 67, 0.9);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    opacity: 1;
+    border: 1px solid rgba(60, 60, 67, 0.9);
+}
+.buttonHome:active{
+    transform: scale(0.8);
+}

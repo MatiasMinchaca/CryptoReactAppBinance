@@ -1,0 +1,4 @@
+## Crypto React App Binance
+
+En este proyecto hacemos la llamda a la API publica de Binance utilizando Axios. Esta API nos devuelve un Arreglo con todas las criptomonedas que se encuentran en esta plataforma con sus respectivos precios actualizados.
+Sabiendo esto diseñe una tabla la cual proporciona una vista amigable para el usuario asi poder ver el listado de las criptomonedas con un sistema de paginado de 50 por cada pagina, te encontraras 2 botones en la parte inferior los cuales te iran cambiando de pagina ya sea hacia adelante o atras, tambien cuenta con un header el cual tiene un input de busqueda el cual funciona al precionar 'Enter'. La misma te lleva a una vista con una tabla la cual posee todos las criptos y mediante una sencilla funcion mientras vas escribiendo te dejara a la vista solo aquellos que coincidan con tu respectiva busqueda.
