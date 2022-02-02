@@ -32,7 +32,7 @@ const Header = () => {
             <ContainerHeader>
                 <input type="search" name="" id="search"  placeholder='Search crypto...' onChange={() => busqueda()} onKeyPress={(e) => {
                     if(e.key == 'Enter'){
-                        navigate({pathname: '/search'})
+                        navigate({pathname: '/CryptoReactAppBinance/search'})
                         setTimeout(() => {
                             busqueda()
                         }, 1000)

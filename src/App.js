@@ -15,8 +15,8 @@ return (
             <Header />
             <Routes>
                 
-                <Route path='/search' element={<SearchCrypto />} />
-                <Route path='/' element={<ListCrypto />} />
+                <Route path='/CryptoReactAppBinance/search' element={<SearchCrypto />} />
+                <Route path='/CryptoReactAppBinance' element={<ListCrypto />} />
             </Routes>
         </UseApiBinanceProvider>
     </Router>
