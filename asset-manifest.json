@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CryptoReactAppBinance/static/css/main.752b6c0f.css",
-    "main.js": "/CryptoReactAppBinance/static/js/main.6e589508.js",
+    "main.js": "/CryptoReactAppBinance/static/js/main.5b194172.js",
     "static/media/background.jpg": "/CryptoReactAppBinance/static/media/background.5df056406e9aa5a05c8a.jpg",
     "index.html": "/CryptoReactAppBinance/index.html",
     "main.752b6c0f.css.map": "/CryptoReactAppBinance/static/css/main.752b6c0f.css.map",
-    "main.6e589508.js.map": "/CryptoReactAppBinance/static/js/main.6e589508.js.map"
+    "main.5b194172.js.map": "/CryptoReactAppBinance/static/js/main.5b194172.js.map"
   },
   "entrypoints": [
     "static/css/main.752b6c0f.css",
-    "static/js/main.6e589508.js"
+    "static/js/main.5b194172.js"
   ]
 }
