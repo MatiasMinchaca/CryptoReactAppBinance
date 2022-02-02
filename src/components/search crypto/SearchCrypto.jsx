@@ -35,7 +35,7 @@ const SearchCrypto = () => {
                     }
                 </tbody>
         </ContainerList>
-        <Link className='buttonHome' to='/'>
+        <Link className='buttonHome' to='/CryptoReactAppBinance'>
                 <FaHome />
         </Link>
         <Footer />
